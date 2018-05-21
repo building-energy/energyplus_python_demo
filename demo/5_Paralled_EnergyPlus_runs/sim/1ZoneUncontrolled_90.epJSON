@@ -1,0 +1,679 @@
+{
+    "Building": {
+        "Simple One Zone (Wireframe DXF)": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 8,
+            "idf_order": 3,
+            "loads_convergence_tolerance_value": 0.04,
+            "maximum_number_of_warmup_days": 30,
+            "minimum_number_of_warmup_days": 6,
+            "north_axis": 90,
+            "solar_distribution": "MinimalShadowing",
+            "temperature_convergence_tolerance_value": 0.004,
+            "terrain": "Suburbs"
+        }
+    },
+    "BuildingSurface:Detailed": {
+        "Zn001:Flr001": {
+            "construction_name": "FLOOR",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 27,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Adiabatic",
+            "sun_exposure": "NoSun",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 0.0
+                }
+            ],
+            "view_factor_to_ground": 1.0,
+            "wind_exposure": "NoWind",
+            "zone_name": "ZONE ONE"
+        },
+        "Zn001:Roof001": {
+            "construction_name": "ROOF31",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 28,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Roof",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 4.572
+                }
+            ],
+            "view_factor_to_ground": 0.0,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "Zn001:Wall001": {
+            "construction_name": "R13WALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 23,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 4.572
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "Zn001:Wall002": {
+            "construction_name": "R13WALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 24,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 4.572
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "Zn001:Wall003": {
+            "construction_name": "R13WALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 25,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 15.24,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 4.572
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        },
+        "Zn001:Wall004": {
+            "construction_name": "R13WALL",
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 22,
+            "idf_order": 26,
+            "number_of_vertices": 4,
+            "outside_boundary_condition": "Outdoors",
+            "sun_exposure": "SunExposed",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 4.572
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 15.24,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 0.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 4.572
+                }
+            ],
+            "view_factor_to_ground": 0.5,
+            "wind_exposure": "WindExposed",
+            "zone_name": "ZONE ONE"
+        }
+    },
+    "Construction": {
+        "FLOOR": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 19,
+            "outside_layer": "C5 - 4 IN HW CONCRETE"
+        },
+        "R13WALL": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 18,
+            "outside_layer": "R13LAYER"
+        },
+        "ROOF31": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 20,
+            "outside_layer": "R31LAYER"
+        }
+    },
+    "Exterior:Lights": {
+        "ExtLights": {
+            "control_option": "AstronomicalClock",
+            "design_level": 5250.0,
+            "end_use_subcategory": "Grounds Lights",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 31,
+            "schedule_name": "AlwaysOn"
+        }
+    },
+    "GlobalGeometryRules": {
+        "GlobalGeometryRules 1": {
+            "coordinate_system": "World",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 21,
+            "starting_vertex_position": "UpperLeftCorner",
+            "vertex_entry_direction": "CounterClockWise"
+        }
+    },
+    "HeatBalanceAlgorithm": {
+        "HeatBalanceAlgorithm 1": {
+            "algorithm": "ConductionTransferFunction",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 6
+        }
+    },
+    "Material": {
+        "C5 - 4 IN HW CONCRETE": {
+            "conductivity": 1.729577,
+            "density": 2242.585,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 15,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.65,
+            "specific_heat": 836.8,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1014984,
+            "visible_absorptance": 0.65
+        }
+    },
+    "Material:NoMass": {
+        "R13LAYER": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 16,
+            "roughness": "Rough",
+            "solar_absorptance": 0.75,
+            "thermal_absorptance": 0.9,
+            "thermal_resistance": 2.290965,
+            "visible_absorptance": 0.75
+        },
+        "R31LAYER": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 17,
+            "roughness": "Rough",
+            "solar_absorptance": 0.75,
+            "thermal_absorptance": 0.9,
+            "thermal_resistance": 5.456,
+            "visible_absorptance": 0.75
+        }
+    },
+    "OtherEquipment": {
+        "Test 352 minus": {
+            "design_level": -352.0,
+            "design_level_calculation_method": "EquipmentLevel",
+            "fraction_latent": 0.0,
+            "fraction_lost": 0.0,
+            "fraction_radiant": 0.0,
+            "fuel_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 30,
+            "schedule_name": "AlwaysOn",
+            "zone_or_zonelist_name": "ZONE ONE"
+        },
+        "Test 352a": {
+            "design_level": 352.0,
+            "design_level_calculation_method": "EquipmentLevel",
+            "fraction_latent": 0.0,
+            "fraction_lost": 0.0,
+            "fraction_radiant": 0.0,
+            "fuel_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 29,
+            "schedule_name": "AlwaysOn",
+            "zone_or_zonelist_name": "ZONE ONE"
+        }
+    },
+    "Output:Constructions": {
+        "Output:Constructions 1": {
+            "details_type_1": "Constructions",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 34
+        }
+    },
+    "Output:Meter:MeterFileOnly": {
+        "Output:Meter:MeterFileOnly 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 51,
+            "key_name": "ExteriorLights:Electricity",
+            "reporting_frequency": "Hourly"
+        },
+        "Output:Meter:MeterFileOnly 2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 52,
+            "key_name": "EnergyTransfer:Building",
+            "reporting_frequency": "Hourly"
+        },
+        "Output:Meter:MeterFileOnly 3": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 53,
+            "key_name": "EnergyTransfer:Facility",
+            "reporting_frequency": "Hourly"
+        }
+    },
+    "Output:Surfaces:Drawing": {
+        "Output:Surfaces:Drawing 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 33,
+            "report_type": "DXF:WireFrame"
+        }
+    },
+    "Output:Table:SummaryReports": {
+        "Output:Table:SummaryReports 1": {
+            "idf_max_extensible_fields": 1,
+            "idf_max_fields": 1,
+            "idf_order": 35,
+            "reports": [
+                {
+                    "report_name": "AllSummary"
+                }
+            ]
+        }
+    },
+    "Output:Variable": {
+        "Output:Variable 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 37,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Site Outdoor Air Drybulb Temperature"
+        },
+        "Output:Variable 2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 38,
+            "key_value": "*",
+            "reporting_frequency": "Daily",
+            "variable_name": "Site Daylight Saving Time Status"
+        },
+        "Output:Variable 3": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 39,
+            "key_value": "*",
+            "reporting_frequency": "Daily",
+            "variable_name": "Site Day Type Index"
+        },
+        "Output:Variable 4": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 40,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Zone Mean Air Temperature"
+        },
+        "Output:Variable 5": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 41,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Zone Total Internal Latent Gain Energy"
+        },
+        "Output:Variable 6": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 42,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Zone Mean Radiant Temperature"
+        },
+        "Output:Variable 7": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 43,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Zone Air Heat Balance Surface Convection Rate"
+        },
+        "Output:Variable 8": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 44,
+            "key_value": "*",
+            "reporting_frequency": "Hourly",
+            "variable_name": "Zone Air Heat Balance Air Energy Storage Rate"
+        },
+        "Output:Variable 9": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 45,
+            "key_value": "*",
+            "reporting_frequency": "Daily",
+            "variable_name": "Surface Inside Face Temperature"
+        },
+        "Output:Variable 10": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 46,
+            "key_value": "*",
+            "reporting_frequency": "Daily",
+            "variable_name": "Surface Outside Face Temperature"
+        },
+        "Output:Variable 11": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 47,
+            "key_value": "*",
+            "reporting_frequency": "Daily",
+            "variable_name": "Surface Inside Face Convection Heat Transfer Coefficient"
+        },
+        "Output:Variable 12": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 48,
+            "key_value": "*",
+            "reporting_frequency": "Daily",
+            "variable_name": "Surface Outside Face Convection Heat Transfer Coefficient"
+        },
+        "Output:Variable 13": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 49,
+            "key_value": "*",
+            "reporting_frequency": "Monthly",
+            "variable_name": "Other Equipment Total Heating Energy"
+        },
+        "Output:Variable 14": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 50,
+            "key_value": "*",
+            "reporting_frequency": "Monthly",
+            "variable_name": "Zone Other Equipment Total Heating Energy"
+        }
+    },
+    "Output:VariableDictionary": {
+        "Output:VariableDictionary 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 32,
+            "key_field": "IDF"
+        }
+    },
+    "OutputControl:Table:Style": {
+        "OutputControl:Table:Style 1": {
+            "column_separator": "All",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 36
+        }
+    },
+    "RunPeriod": {
+        "": {
+            "apply_weekend_holiday_rule": "No",
+            "begin_day_of_month": 1,
+            "begin_month": 1,
+            "day_of_week_for_start_day": "Tuesday",
+            "end_day_of_month": 31,
+            "end_month": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 11,
+            "use_weather_file_daylight_saving_period": "Yes",
+            "use_weather_file_holidays_and_special_days": "Yes",
+            "use_weather_file_rain_indicators": "Yes",
+            "use_weather_file_snow_indicators": "Yes"
+        }
+    },
+    "Schedule:Constant": {
+        "AlwaysOn": {
+            "hourly_value": 1.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 14,
+            "schedule_type_limits_name": "On/Off"
+        }
+    },
+    "ScheduleTypeLimits": {
+        "Fraction": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 12,
+            "lower_limit_value": 0.0,
+            "numeric_type": "Continuous",
+            "upper_limit_value": 1.0
+        },
+        "On/Off": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 13,
+            "lower_limit_value": 0,
+            "numeric_type": "Discrete",
+            "upper_limit_value": 1
+        }
+    },
+    "SimulationControl": {
+        "SimulationControl 1": {
+            "do_plant_sizing_calculation": "No",
+            "do_system_sizing_calculation": "No",
+            "do_zone_sizing_calculation": "No",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 2,
+            "run_simulation_for_sizing_periods": "Yes",
+            "run_simulation_for_weather_file_run_periods": "Yes"
+        }
+    },
+    "Site:Location": {
+        "Denver Centennial  Golden   N_CO_USA Design_Conditions": {
+            "elevation": 1829.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 8,
+            "latitude": 39.74,
+            "longitude": -105.18,
+            "time_zone": -7.0
+        }
+    },
+    "SizingPeriod:DesignDay": {
+        "Denver Centennial  Golden   N Ann Clg 1% Condns DB=>MWB": {
+            "barometric_pressure": 81198.0,
+            "daily_dry_bulb_temperature_range": 15.2,
+            "day_of_month": 21,
+            "day_type": "SummerDesignDay",
+            "daylight_saving_time_indicator": "No",
+            "humidity_condition_type": "WetBulb",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 26,
+            "idf_order": 10,
+            "maximum_dry_bulb_temperature": 32.0,
+            "month": 7,
+            "rain_indicator": "No",
+            "sky_clearness": 1.0,
+            "snow_indicator": "No",
+            "solar_model_indicator": "ASHRAEClearSky",
+            "wetbulb_or_dewpoint_at_maximum_dry_bulb": 15.5,
+            "wind_direction": 0.0,
+            "wind_speed": 4.9
+        },
+        "Denver Centennial  Golden   N Ann Htg 99% Condns DB": {
+            "barometric_pressure": 81198.0,
+            "daily_dry_bulb_temperature_range": 0.0,
+            "day_of_month": 21,
+            "day_type": "WinterDesignDay",
+            "daylight_saving_time_indicator": "No",
+            "humidity_condition_type": "WetBulb",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 26,
+            "idf_order": 9,
+            "maximum_dry_bulb_temperature": -15.5,
+            "month": 12,
+            "rain_indicator": "No",
+            "sky_clearness": 0.0,
+            "snow_indicator": "No",
+            "solar_model_indicator": "ASHRAEClearSky",
+            "wetbulb_or_dewpoint_at_maximum_dry_bulb": -15.5,
+            "wind_direction": 340.0,
+            "wind_speed": 3.0
+        }
+    },
+    "SurfaceConvectionAlgorithm:Inside": {
+        "SurfaceConvectionAlgorithm:Inside 1": {
+            "algorithm": "TARP",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 4
+        }
+    },
+    "SurfaceConvectionAlgorithm:Outside": {
+        "SurfaceConvectionAlgorithm:Outside 1": {
+            "algorithm": "DOE-2",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 5
+        }
+    },
+    "Timestep": {
+        "Timestep 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 7,
+            "number_of_timesteps_per_hour": 4
+        }
+    },
+    "Version": {
+        "Version 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 1,
+            "version_identifier": "8.9"
+        }
+    },
+    "Zone": {
+        "ZONE ONE": {
+            "ceiling_height": "Autocalculate",
+            "direction_of_relative_north": 0.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 22,
+            "multiplier": 1,
+            "type": 1,
+            "volume": "Autocalculate",
+            "x_origin": 0.0,
+            "y_origin": 0.0,
+            "z_origin": 0.0
+        }
+    }
+}

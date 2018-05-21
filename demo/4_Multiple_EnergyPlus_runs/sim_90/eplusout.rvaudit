@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\1ZoneUncontrolled_90.rvi
+ input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\eplusout.eso
+ output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\eplusout.csv
+ getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\eplusout.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.79sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\1ZoneUncontrolled_90.mvi
+ input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\eplusout.mtr
+ output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\eplusmtr.csv
+ getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\4_Multiple_EnergyPlus_runs\sim_90\eplusout.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.81sec
+ ReadVarsESO program completed successfully.
