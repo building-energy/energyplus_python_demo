@@ -1,16 +1,307 @@
  ReadVarsESO
- processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90.rvi
- input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90out.eso
- output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90out.csv
- getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90out.eso
+ processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0exp.rvi
+ input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0expout.eso
+ output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0expout.csv
+ getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0expout.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.11sec
+ ReadVarsESO program completed successfully.
+fully.
+ ReadVarsESO
+ processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_180exp.mvi
+ input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_180expout.mtr
+ output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_180expmtr.csv
+ getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_180expout.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.53sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0exp.mvi
+ input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0expout.mtr
+ output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0expmtr.csv
+ getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Parallel_EnergyPlus_runs\sim\1ZoneUncontrolled_0expout.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.62sec
+ ReadVarsESO program completed successfully.
+y.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.rvi
+ input file:sim\1ZoneUncontrolled_90out.eso
+ output file:sim\1ZoneUncontrolled_90out.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.28sec
+ ReadVarsESO program completed successfully.
+dVar ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.rvi
+ input file:sim\1ZoneUncontrolled_180out.eso
+ output file:sim\1ZoneUncontrolled_180out.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.25sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.mvi
+ input file:sim\1ZoneUncontrolled_90out.mtr
+ output file:sim\1ZoneUncontrolled_90mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.50sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.mvi
+ input file:sim\1ZoneUncontrolled_180out.mtr
+ output file:sim\1ZoneUncontrolled_180mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.41sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.rvi
+ input file:sim\1ZoneUncontrolled_0out.eso
+ output file:sim\1ZoneUncontrolled_0out.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.34sec
+ ReadVarsESO program completed successfully.
+fully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.mvi
+ input file:sim\1ZoneUncontrolled_270out.mtr
+ output file:sim\1ZoneUncontrolled_270mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.51sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.mvi
+ input file:sim\1ZoneUncontrolled_0out.mtr
+ output file:sim\1ZoneUncontrolled_0mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.58sec
+ ReadVarsESO program completed successfully.
+fully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.rvi
+ input file:sim\1ZoneUncontrolled_270out.eso
+ output file:sim\1ZoneUncontrolled_270out.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.36sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.mvi
+ input file:sim\1ZoneUncontrolled_0out.mtr
+ output file:sim\1ZoneUncontrolled_0mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.55sec
+ ReadVarsESO program completed successfully.
+fully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.mvi
+ input file:sim\1ZoneUncontrolled_270out.mtr
+ output file:sim\1ZoneUncontrolled_270mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.56sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.rvi
+ input file:sim\1ZoneUncontrolled_270out.eso
+ output file:sim\1ZoneUncontrolled_270out.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.37sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.mvi
+ input file:sim\1ZoneUncontrolled_180out.mtr
+ output file:sim\1ZoneUncontrolled_180mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.56sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.mvi
+ input file:sim\1ZoneUncontrolled_270out.mtr
+ output file:sim\1ZoneUncontrolled_270mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.45sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.rvi
+ input file:sim\1ZoneUncontrolled_0out.eso
+ output file:sim\1ZoneUncontrolled_0out.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.29sec
+ ReadVarsESO program completed successfully.
+y.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.mvi
+ input file:sim\1ZoneUncontrolled_90out.mtr
+ output file:sim\1ZoneUncontrolled_90mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.48sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.rvi
+ input file:sim\1ZoneUncontrolled_180out.eso
+ output file:sim\1ZoneUncontrolled_180out.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.14sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.mvi
+ input file:sim\1ZoneUncontrolled_180out.mtr
+ output file:sim\1ZoneUncontrolled_180mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.48sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.rvi
+ input file:sim\1ZoneUncontrolled_0out.eso
+ output file:sim\1ZoneUncontrolled_0out.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.33sec
+ ReadVarsESO program completed successfully.
+fully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.mvi
+ input file:sim\1ZoneUncontrolled_0out.mtr
+ output file:sim\1ZoneUncontrolled_0mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.58sec
+ ReadVarsESO program completed successfully.
+y.
+y.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.rvi
+ input file:sim\1ZoneUncontrolled_270out.eso
+ output file:sim\1ZoneUncontrolled_270out.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.06sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.mvi
+ input file:sim\1ZoneUncontrolled_270out.mtr
+ output file:sim\1ZoneUncontrolled_270mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.47sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.rvi
+ input file:sim\1ZoneUncontrolled_270out.eso
+ output file:sim\1ZoneUncontrolled_270out.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.29sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.mvi
+ input file:sim\1ZoneUncontrolled_0out.mtr
+ output file:sim\1ZoneUncontrolled_0mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.59sec
+ ReadVarsESO program completed successfully.
+fully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.rvi
+ input file:sim\1ZoneUncontrolled_0out.eso
+ output file:sim\1ZoneUncontrolled_0out.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.01sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_0exp.mvi
+ input file:sim\1ZoneUncontrolled_0out.mtr
+ output file:sim\1ZoneUncontrolled_0mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_0out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.45sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.rvi
+ input file:sim\1ZoneUncontrolled_90out.eso
+ output file:sim\1ZoneUncontrolled_90out.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.05sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.mvi
+ input file:sim\1ZoneUncontrolled_90out.mtr
+ output file:sim\1ZoneUncontrolled_90mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.44sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.rvi
+ input file:sim\1ZoneUncontrolled_180out.eso
+ output file:sim\1ZoneUncontrolled_180out.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.11sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_180exp.mvi
+ input file:sim\1ZoneUncontrolled_180out.mtr
+ output file:sim\1ZoneUncontrolled_180mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_180out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.42sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.rvi
+ input file:sim\1ZoneUncontrolled_270out.eso
+ output file:sim\1ZoneUncontrolled_270out.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.eso
   number variables requested for output=          34
  ReadVars Run Time=00hr 00min  1.03sec
  ReadVarsESO program completed successfully.
  ReadVarsESO
- processing:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90.mvi
- input file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90out.mtr
- output file:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90mtr.csv
- getting all vars from:C:\Users\cvskf\git\stevenkfirth\energyplus_python_demo\demo\5_Paralled_EnergyPlus_runs\sim\1ZoneUncontrolled_90out.mtr
+ processing:sim\1ZoneUncontrolled_270exp.mvi
+ input file:sim\1ZoneUncontrolled_270out.mtr
+ output file:sim\1ZoneUncontrolled_270mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.48sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.rvi
+ input file:sim\1ZoneUncontrolled_90out.eso
+ output file:sim\1ZoneUncontrolled_90out.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.eso
+  number variables requested for output=          34
+ ReadVars Run Time=00hr 00min  1.26sec
+ ReadVarsESO program completed successfully.
+y.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_270exp.mvi
+ input file:sim\1ZoneUncontrolled_270out.mtr
+ output file:sim\1ZoneUncontrolled_270mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_270out.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.59sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:sim\1ZoneUncontrolled_90exp.mvi
+ input file:sim\1ZoneUncontrolled_90out.mtr
+ output file:sim\1ZoneUncontrolled_90mtr.csv
+ getting all vars from:sim\1ZoneUncontrolled_90out.mtr
   number variables requested for output=           3
  ReadVars Run Time=00hr 00min  0.53sec
  ReadVarsESO program completed successfully.

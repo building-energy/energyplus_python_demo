@@ -1,4 +1,4 @@
-Program Version:,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.21 15:43
+Program Version:,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.23 15:36
 Tabular Output Report in Format: ,Comma
 
 Building:,Simple One Zone (Wireframe DXF)
@@ -174,7 +174,7 @@ FOR:,Entire Facility
 General
 
 ,,Value
-,Program Version and Build,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.21 15:43
+,Program Version and Build,EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.23 15:36
 ,RunPeriod,San Francisco Intl Ap CA USA TMY3 WMO#=724940
 ,Weather File,San Francisco Intl Ap CA USA TMY3 WMO#=724940
 ,Latitude [deg],37.62

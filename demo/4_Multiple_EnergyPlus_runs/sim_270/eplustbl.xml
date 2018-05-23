@@ -3,13 +3,13 @@
   <BuildingName>Simple One Zone (Wireframe DXF)</BuildingName>
   <EnvironmentName>San Francisco Intl Ap CA USA TMY3 WMO#=724940</EnvironmentName>
   <WeatherFileLocationTitle>San Francisco Intl Ap CA USA TMY3 WMO#=724940</WeatherFileLocationTitle>
-  <ProgramVersion>EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.21 15:43</ProgramVersion>
+  <ProgramVersion>EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.23 15:36</ProgramVersion>
   <SimulationTimestamp>
     <Date>
-      2018-05-21
+      2018-05-23
     </Date>
     <Time>
-      15:43:54
+      15:36:08
     </Time>
   </SimulationTimestamp>
 
@@ -540,7 +540,7 @@
   <for>Entire Facility</for>
   <General>
     <name>Value</name>
-    <ProgramVersionAndBuild>EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.21 15:43</ProgramVersionAndBuild>
+    <ProgramVersionAndBuild>EnergyPlus, Version 8.9.0-40101eaafd, YMD=2018.05.23 15:36</ProgramVersionAndBuild>
     <Runperiod>San Francisco Intl Ap CA USA TMY3 WMO#=724940</Runperiod>
     <WeatherFile>San Francisco Intl Ap CA USA TMY3 WMO#=724940</WeatherFile>
     <Latitude units="deg">
